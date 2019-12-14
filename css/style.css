@@ -8219,3 +8219,31 @@ html.ie11 .dropdown-menu ul.menu li a {
 
 html.ie11 .bs-searchbox .form-control {
   width: 90%; }
+
+
+
+  .nav-box {
+    width: 87px;
+    font-size: 18px;
+    height: auto;
+    padding-bottom: 8px;
+    margin-right: 5px;
+  }
+  .nav-box2 {
+    width: 87px;
+    font-size: 18px;
+    height: auto;
+    padding-bottom: 8px;
+  }
+  .nav-title {
+    color: #aaa;
+  }
+  .nav .active .nav-title {
+    color: #fff;
+  } 
+  .nav {
+    margin-left: 9px;
+  }
+  .nav .active {
+    border-bottom: 2px #94BA53 solid;
+  }
