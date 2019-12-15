@@ -54,7 +54,12 @@
             color: #fff;
             text-align: center;
         } 
-
+        .carousel-inner > .item {
+            cursor: default;
+        }
+        .carousel-inner:hover > .item {
+            cursor: pointer;
+        }
         .carousel-control.left {
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
             background-repeat: repeat-x;
@@ -198,13 +203,13 @@
                         </ol>
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
-                            <div class="item active">
+                            <div class="item active" onclick="javascript:window.location='./xiangmudi.html'">
                                 <img src="./images/image-gallery/1.png" />
                                 <div class="carousel-caption">
                                     <h4>阿拉善SEE基金会物种保护项目项目地分布</h4>
                                 </div>
                             </div>
-                            <div class="item">
+                            <div class="item" onclick="javascript:window.location='./KBA.html'">
                                 <img src="./images/image-gallery/2.png" />
                                 <div class="carousel-caption">
                                     <h4>基于阿拉善SEE基金会生态大数据库的潜在KBA地块分布</h4>
